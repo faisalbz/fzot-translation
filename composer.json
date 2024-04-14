@@ -1,0 +1,23 @@
+{
+    "name": "fzot/translation",
+    "description": "Translation by artificial intelligence",
+    "autoload": {
+        "psr-4": {
+            "Fzot\\Translation\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faisal AL-Otaibi",
+            "email": "faysl4041@gmail.com"
+        }
+    ],
+    "require": {},
+    "extra": {
+        "laravel":{
+            "providers":[
+                "Fzot\\Translation\\TranslationServiceProvider"
+            ]
+        }
+    }
+}
